@@ -15,14 +15,14 @@ Leveraging this raw information, we generated four data files, their structure i
 3. Gene Expression Per Subject
 4. Methylation Level Data Per Sample and CpG Site
 
-For an in-depth understanding of our data preparation process, including associated documents and code, refer to the  [Data Preparation Documentation](https://docs.google.com/document/d/1mcqvdV8dOxaLs3zar7T54yrKlKJttkI3Kr0jiwrF3Cs/edit?usp=sharing)
+For an in-depth understanding of our data preparation process, including associated documents and code, refer to the  [Data Preparation Documentation](https://github.com/YakhiniGroup/Spatial_DNA_Methylation_AD/blob/5d06821a9bbe25b9780be3cef9ba480a5991fd5a/docs/CH3%20Data%20Preparation%20Documentation.pdf)
 
 ### 2. Model Implementation
 
 The second part of our project involves implementing the model in PyTorch and reproducing the results achieved in the paper using our own code. 
 To confirm the validity of each step, we first replicated the original model's performance using our dataset and the original TensorFlow implementation.
 Then, we proceeded to train and test our PyTorch model using our dataset, successfully reproducing the results at this stage as well.
-To access the model code and instructions with the training and validation environment, please visit the [Model Code Repository](https://github.com/agotliber/CH3_project/tree/main/src).
+To access the model code and instructions with the training and validation environment, please visit the [Model Code Repository](https://github.com/YakhiniGroup/Spatial_DNA_Methylation_AD/tree/5d06821a9bbe25b9780be3cef9ba480a5991fd5a/src).
 
 ### 3. Dilution Test: Evaluating Spatial Methylation Prediction
 
@@ -30,7 +30,7 @@ In the third phase, we introduced dilution tests to gauge the potential success 
 
 We conducted the tests at various dilution levels working points: 100, 1000, 5000, 10,000, 15,000, and 20,000 chosen genes. Each working point was subjected to 10 iterations, and we derived the model accuracy statistics based on these iterations. As anticipated, better performance was achieved with higher retention of gene expression data and decreased performance as we approached complete removal of gene expressions.
 
-For a comprehensive insight into the dilution test results and associated performance graphs, please explore the [Dilution Test Results](https://github.com/agotliber/CH3_project/blob/main/Dilution_experiement_ch3.pdf).
+For a comprehensive insight into the dilution test results and associated performance graphs, please explore the [Dilution Test Results](https://github.com/YakhiniGroup/Spatial_DNA_Methylation_AD/blob/5d06821a9bbe25b9780be3cef9ba480a5991fd5a/docs/Predicting%20DNA%20Methylation%20at%20individual%20CpG%20sites%20from%20diluted%20gene%20expression%20data%20and%20site%20context.pdf).
 
 
 For inquiries or support please reach out to agotliber@gmail.com or keydar.dana@gmail.com
