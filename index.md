@@ -8,6 +8,7 @@ DNA methylation is a chemical process that modifies DNA in living organisms and 
 DNA methylation has been extensively linked to alterations in gene expression, playing a key role in the manifestation and pathogenesis of multiple diseases, such as cancer. Hence, the sequence determinants of methylation and the relationship between methylation and expression are of great interest from a biological perspective.
 
 ![Alt text](./assets/01.png)
+<img src="./assets/01.png" alt="Alt text" width="200"/>
 
 Data structure of the four data parts, including an illustration of the train validation and test separation. The test set consists of subjects/samples and CpGs that have not been included in the train or validation set. The association of each subject and CpG to either one of the train, validation or test sets, was random.
 
