@@ -25,7 +25,7 @@ Leveraging this raw information, we generated four data files, their structure i
 
 For an in-depth understanding of our data preparation process, including associated documents and code, refer to the  [Data Preparation Documentation](https://github.com/YakhiniGroup/Spatial_DNA_Methylation_AD/blob/5d06821a9bbe25b9780be3cef9ba480a5991fd5a/docs/CH3%20Data%20Preparation%20Documentation.pdf)
 
-![Alt text](./assets/02.png)
+![Alt text](./assets/08.png)
 
 Visualization of a subset of the gene expression data, in different retention levels. The rows represent an arbitrary selection of samples, and the columns represent an arbitrary selection of genes. Each graph depicts a heatmap of the gene expression data at the indicated retention level. The colors represent the gene expression levels after the dilution process.
 
