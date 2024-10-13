@@ -31,7 +31,7 @@ Visualization of a subset of the gene expression data, in different retention le
 
 ## Our Work & Research
 
-### The Pytourch reconstructed model
+### The PyTorch reconstructed model
 
 This part of the project involves implementing the model in PyTorch and reproducing the results achieved in the paper using our own code. 
 To confirm the validity of each step, we first replicated the original model's performance using our dataset and the original TensorFlow implementation.
@@ -58,7 +58,7 @@ Visualization of a subset of the gene expression data, in different retention le
 
 ## Results
 
-### The Pytourch reconstructed model
+### The PyTorch reconstructed model
 
 We evaluated both models on held-out test sets in which both CpGs and Samples are disjoint to the ones included in the training. The reported results in [1] are: MAE of 0.14 and 0.8 Spearman correlation. In our reproduction experiments (with the new data) we obtained the following results. When utilizing the original Tensorflow model, we achieved MAE of 0.173 and 0.740 Spearman correlation, and with our new PyTorch model MAE of 0.167 and 0.742 Spearman correlation.
 
@@ -77,7 +77,7 @@ Training graphs of the PyTorch model, trained with the reconstructed data. The m
 
 Training graphs of the PyTorch model, trained with the reconstructed data. The metrics presented in the graphs are Spearman Correlation (left) and the Mean Absolute Error (MAE) loss (right).
 
-## Consclusions
+## Conclusions
 The experiments conducted using diluted gene expression data clearly illustrate the remarkable potential for predictability even when dealing with partial or diluted datasets. Specifically, when transitioning from the complete gene expression set to a subset of chosen 5,000 genes, the effect on the model’s prediction capability remained relatively modest.
 
 The results underscore the model's ability to extract meaningful insights from highly diluted data, reaffirming its robustness and potential for practical application.In particular, our results lay solid foundation to continued work with single cell and spatial transcriptomics data.
