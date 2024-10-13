@@ -3,6 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Predicting DNA Methylation at individual CpG sites from diluted gene expression data and site context
 description: Dana Keydar, Adi Gotliber
-The project mentored and supervised by Prof. Zohar Yakhini and Alona Levy-Jurgenson, a PhD student at the Yakhini Research Group.
 
 
